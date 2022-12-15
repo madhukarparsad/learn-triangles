@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>area of triangle</title>
+    <style>
+        body{
+            background-color: #F3F4F6;
+            text-align: center;
+        }
+
+        header {
+            background-color: #000308;
+            margin: auto;
+            padding: 1rem;
+        }
+        .fun {
+            text-align: left;
+            color: #F3F4F6;
+        }
+
+        .link {
+            text-decoration: none;
+            /* display: block; */
+            text-align: right;
+            padding: 0 .5rem;
+            color: aliceblue;
+        }
+        .container{
+            text-align: right;
+        }
+        /* .input{
+            display: block;
+        } */
+        .in-lable{
+            display: block;
+            color: #374151;
+            font-size: large;
+            font-weight: 600;
+        }
+        .input{
+            display: block;
+            margin: auto;
+            border-radius: 0.3rem;
+            background-color: #374151;
+            padding: 0.5rem;
+            color: #F3F4F6;
+            font-weight: bolder;
+            text-align: center;
+        }
+        
+        #Tringle-btn{
+            border-radius: 0.5rem;
+            background-color: #374151;
+            margin: 0.5rem;
+            padding: 0.5rem;
+            color: #F3F4F6;
+            font-weight: bolder;
+        }
+
+        #output{
+            margin: 1rem;
+            font-size: larger;
+            font-weight: 600;
+            background-color: antiquewhite;
+            border: solid black 2px;
+            padding: 5rem;
+        }
+    </style>
+</head>
+<body style="background-color: yellow;">
+    <header>
+        <h1 class="fun">Fun with Triangle</h1>
+        <div class="container">
+            <a class="link" href="index.html">Is Triangle?</a>
+            <a class="link" href="quiz.html">Triangle Quize</a>
+            <a class="link" href="hypotenuse.html">Calcualte Hypotenuse</a>
+            <a class="link" href="area.html">Area of Triangle</a>
+        </div>
+    </header>
+    
+    
+    <h1>Area Of Triangle</h1>
+    <div class="cent">
+        <label for="first-side" class="in-lable">
+            Enter first side of Triangle
+            <input style="margin-top: 1rem;" type="number" id="tri-side"/> 
+        </label>
+        <label for="second-side" class="in-lable">
+            Enter second side of Triangle
+            <input style="margin-top: 1rem;" type="number" id="tri-side"/>
+        </label>
+        <label for="third-side" class="in-lable">
+            Enter third side of Triangle
+            <input style="margin-top: 1rem;" type="number" id="tri-side"/>
+        </label>
+    </div>
+ 
+    
+    <button id="calculate"> <strong> Calculate Area</strong></button>
+    <h2 id="output"></h2>
+
+  
+    
+    <script src="area.js"></script>
+</body>
+</html>
